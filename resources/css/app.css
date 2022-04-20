@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '@recogito/annotorious/dist/annotorious.min.css';
+
+.swal2-styled.swal2-confirm:focus {
+    box-shadow: none !important;
+}
