@@ -81,7 +81,7 @@ If you followed the steps above, 2 default accounts will have been created.
 
 ## Sidebar Menu
 
-**Sidebar configuration file**
+**Sidebar menu configuration file**
 
 [/config/menu.php](config/menu.php)
 
