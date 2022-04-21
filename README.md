@@ -77,13 +77,13 @@ If you followed the steps above, 2 default accounts will have been created.
 
 [/public/assets/images/favicon.ico](public/assets/images/favicon.ico)
 
-[/public/assets/images/logo.svg](public/assets/images/logo.svg)
+[/public/assets/images/logo.png](public/assets/images/logo.png)
 
 ## Sidebar Menu
 
 **Sidebar configuration file**
 
-[/config/sidebar.php](config/menu.php)
+[/config/menu.php](config/menu.php)
 
 **Sidebar icons**
 
