@@ -13,7 +13,7 @@ Route::middleware(['auth'])->group(function () {
         'index',
     ])->name('dashboard');
 
-    Route::resource('users', UsersController::class);
+    Route::resource('users', UsersController::class)->middleware('administrator');
     Route::resource('profile', ProfileController::class);
 
 });
