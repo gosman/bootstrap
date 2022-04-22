@@ -12,7 +12,7 @@ class UserObserver
     public function created(User $user)
     {
 
-        Mail::to('graham@edm.ie')->send(new UserCreated($user));
+        Mail::to($user->email)->send(new UserCreated($user));
     }
 
 
